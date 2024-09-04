@@ -1,0 +1,71 @@
+*{
+    text-align: center;
+    padding:0px;
+    margin:0px;
+}
+#header{
+    font-size: 40px;
+}
+body{
+    background-color: #151516;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+#display input{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    border: solid 3px #76abae66;;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #31363F;
+    color:white;
+}
+#display input:active,#display input:focus{
+    border: solid #76abae66 3px;
+    outline:none;
+}
+#cal-body{
+    box-shadow: 0px 0px 20px px rgba(255, 255, 255, 0.064);
+    margin-top: 100px;
+    border: solid 3px #76abae66;
+    padding: 12px;
+    width:300px;
+    background-color: #222831;
+    border-radius: 10px;
+    
+}
+.button,.button2,.button3{
+    display: inline-flex;
+    flex-direction: row;   
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: solid 1px black;
+    background-color: #EEEEEE;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+.op{
+    background-color: #76ABAE;
+}
+.button:hover,.button3:hover{
+    background-color: #eeeeeedd;
+}
+.op:hover,.clear:hover{
+    background-color: #76abaed8;
+}
+.button:active,.clear:active,.button3:active{
+    transform: scale(0.9);
+}
+.clear{
+    width:270px;
+    height:35px;
+    margin-top: 10px;
+    border-radius: 60px;
+    background-color: #76ABAE;
+}
